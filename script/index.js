@@ -17,8 +17,8 @@ btn.addEventListener('click', calculate);
 let display = document.querySelector('[data-answer]');
 
 function calculate() {
-    // Get the values from the input fields
-    let heightInCentimeters = parseFloat(document.querySelector('[data-height]').value);
+// Get the values from the input fields
+let heightInCentimeters = parseFloat(document.querySelector('[data-height]').value);
     let weight = parseFloat(document.querySelector('[data-weight]').value);
     // Convert height to meters (divide by 100 as 1 meter = 100 centimeters)
     let heightInMeters = heightInCentimeters / 100;
